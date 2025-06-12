@@ -16,7 +16,7 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/End-to-End-Book-Recommender-System.git
+https://github.com/ritzm716/End-to-End-Book-Recommender-System.git
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -69,7 +69,7 @@ git clone "your-project"
 ```
 
 ```bash
-docker build -t entbappy/stapp:latest . 
+docker build -t ritzm716/stapp:latest . 
 ```
 
 ```bash
@@ -97,11 +97,11 @@ docker login
 ```
 
 ```bash
-docker push entbappy/stapp:latest 
+docker push ritzm716/stapp:latest 
 ```
 
 ```bash
-docker rmi entbappy/stapp:latest
+docker rmi ritzm716/stapp:latest
 ```
 
 ```bash
